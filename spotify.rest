@@ -1,0 +1,35 @@
+GET https://api.spotify.com/v1/playlists/0UKmQJJmXskgC40T4gaFtm/tracks?offset=7333&limit=100
+Accept: application/json
+Authorization: Bearer BQAfASOWaUPYPMncz2tpJ7dJWcGrIt5knWbcx60ssEBYL-9jx3gzroCLrN637swJHv9EIeRpsKKpQ0krYKyUmomvzhmvyewmTgth4F1aSFUGSVngnMVpasYoqhdH21cWbLVNg_AIiJV997e85C7x0mbubGrbAFYyjVP1OEK5NCAezbpKLNt7ULRhDgZX0QKQPNwASeNUtFJ-jwoL-hHoUxq6ZMkBTfAsk954iMrddFnhOLP-fuwbNR0QlBG7Xo8zdE43g1sBgPkjxkVGPQ
+
+###
+
+POST https://api.spotify.com/v1/users/12166084095/playlists
+Accept: application/json
+Authorization: Bearer BQAUPl36hoKeOIFIdl-uCUuMNhot4A7puTwJsjSYMqW2mTC2-XpHOm_YbN5uQbRclofn_KCNQQrpxruT1LlU3lWtYFbQcIfmGfrnAL6CaRSsthYskc9gaOWL5QyWKnU_NH7w3jPAVgWyaIaoBXRlH3lfZxJhTABK35rPRTEwHDViCYYkg3GvWXR2Z4Qzf6XSPXTJZ2WHpfNEB3JCUkJYcwCX7bRyotxPPFlbp0BGvAdJGw_z4COoKqtqj9P7Yclhj-lWLR09vOL3irNwaA
+Content-Type: application/json
+
+{
+  "name": "New Playlist",
+  "description": "New playlist description",
+  "public": false
+}
+
+###
+
+GET https://api.spotify.com/v1/search?q=Falling%20In%20Love%20Again%20-%20Eagle-Eye%20Ch&type=track
+Accept: application/json
+Authorization: Bearer BQCtl6XQ5MNs1yYidQ_2RJaIvB_uxi3wghSk-noexxay6xPuo3qy-wQM5lWmoQFjEvjQg8PZZL1gqCXSfudN-BSCksypiK272GyRCnL7nBgU0Nc45Yj7eZam8WnHD8h3enh-lNGrFZGOPS9By9Bc5hv9XJ9QWZnrn2qK-Tz2eg1ww_ZtC_UzA1GpVeo2n8fxzyZA7zLOtXO8ayWm6gYiHM3LDeGW3oWCwMtUuSJQfpJzbDqRKyTTjxncxOeaQwTMUTDGKaLagmy7iQdMRg
+
+###
+
+POST https://api.spotify.com/v1/playlists/2WAQq5osaxjOqr5yT4lge7/tracks
+Accept: application/json
+Authorization: Bearer BQCtl6XQ5MNs1yYidQ_2RJaIvB_uxi3wghSk-noexxay6xPuo3qy-wQM5lWmoQFjEvjQg8PZZL1gqCXSfudN-BSCksypiK272GyRCnL7nBgU0Nc45Yj7eZam8WnHD8h3enh-lNGrFZGOPS9By9Bc5hv9XJ9QWZnrn2qK-Tz2eg1ww_ZtC_UzA1GpVeo2n8fxzyZA7zLOtXO8ayWm6gYiHM3LDeGW3oWCwMtUuSJQfpJzbDqRKyTTjxncxOeaQwTMUTDGKaLagmy7iQdMRg
+Content-Type: application/json
+
+{
+  "uris": [
+    "spotify:track:0pqnGHJpmpxLKifKRmU6WP"
+  ]
+}
