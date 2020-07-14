@@ -11,7 +11,7 @@ How do I make Spotify read this metadata and Match them into actual tracks on th
 2. Get what interests me (Track name, artist and album)
 3. THE FUN PART - Match them all (most of them)
     - Run a query to find candidates based on the Track Name
-    - Get ratio result between candidate's track name and my playlist track's name
+    - Get ratio result between candidate's track name and my playlist track's name using [Levenshtein](https://github.com/ztane/python-Levenshtein/) algorithm 
     - Do the same for the artist's name
     - Get the average of them two any ratio average above 0.3 is a good enough match because lot's of my songes did not have Artist field populated but they were present on the tracks name
     - Get candidate's track popularity
