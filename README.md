@@ -28,8 +28,8 @@ My new playlist: https://open.spotify.com/playlist/5Ob7com0xkQNXt48HcTPmO?si=5Qg
 Dead playlist: https://open.spotify.com/playlist/0UKmQJJmXskgC40T4gaFtm?si=yl4f1ioMS_aQG-kMHhAAEA
 
 From **7534** tracks
-**6689** tracks matched
-**845** tracks not matched
+- **6689** tracks matched
+- **845** tracks not matched
 
 As for the not matches I still have some faith that doing some teaks on the code I can find some more matches :D
 
